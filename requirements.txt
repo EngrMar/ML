@@ -1,0 +1,11 @@
+flask
+numpu
+pandas
+statsmodels.api
+matplotlib.pyplot
+sklearn.linear_model
+seaborn
+math
+sklearn.preprocessing
+sklearn.model_selection
+sklearn

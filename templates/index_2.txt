@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Profile Website</title>
+  </head>
+  <body background="static\61769.jpg">
+      <img src="static\crop1-modified2.png"/>
+      <h3>Artificial Intelligence</h3>
+      <p>This is a Machine Learning Service, intended to give a predicted Used Car Price based on Year of Purchase and Model.</p>
+      <p>The algorithm used a supervised, regression model, and a data set from kaggle, containing average used cars' prices in daekho.</p>
+      <br>
+      <form action="{{ url_for('Prediction') }}" method="GET">
+        <label for="year_of_pur">When is the year of Purchase?: </label>
+        <input type="text" id="year_of_pur" name="year_of_pur"><br><br>
+        <label for="mil">What is the Car's Mileage?: </label>
+        <input type="text" id="mil" name="mil"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <p>Click on the submit button to submit the form.</p>
+  </body>
+</html>
