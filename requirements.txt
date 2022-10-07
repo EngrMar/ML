@@ -1,5 +1,5 @@
 flask
-numpu
+numpy
 pandas
 statsmodels.api
 matplotlib.pyplot
